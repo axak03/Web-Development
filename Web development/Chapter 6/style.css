@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: #f4f7fa;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/041/332/300/small_2x/ai-generated-petrol-station-scene-gas-pump-nozzle-in-fuel-dispenser-facilitating-refueling-with-gasoline-and-diesel-symbolizing-petroleum-industry-and-service-photo.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calculator {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.4rem;
+    color: #444;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+ 
+  input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+ 
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  #totalCost {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #222;
+    font-weight: bold;
+  }
